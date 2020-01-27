@@ -14,7 +14,7 @@ import fr.d2factory.libraryapp.member.Student;
 
 
 public class LibraryDefaultService implements Library {
-	private BookRepository bookRepository = new BookRepository();
+	private BookRepository bookRepository;
 
 	public BookRepository getBookRepository() {
 		return bookRepository;
